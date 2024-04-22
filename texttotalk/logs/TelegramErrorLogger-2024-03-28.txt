@@ -1,0 +1,110 @@
+============[Date]============
+[ 2024-03-28 13:16:37  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797222
+ref.callback_query.id= 6787463463001873729
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 230
+ref.callback_query.message.from.id= 6776376544
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات یوتیوب دانلودر
+ref.callback_query.message.from.username= youtubedownloader_sabzlearnbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711628147
+ref.callback_query.message.text= لینک های دانلود شما:
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= 144p
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /66055f71c74ae
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= 240p
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /66055f71cc608
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= 360p
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /66055f71d2b9f
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= 480p
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /66055f71d7317
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= 720p
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.callback_data= /66055f71db16f
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= 720p60
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.callback_data= /66055f71df842
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.text= 1080p60
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.callback_data= /66055f71e3877
+ref.callback_query.chat_instance= 4269859796947639004
+ref.callback_query.data= /66055f71c74ae
+
+
+[ref]
+ref.video= File
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(158): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-28 13:18:35  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797223
+ref.callback_query.id= 6787463460022409806
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 230
+ref.callback_query.message.from.id= 6776376544
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات یوتیوب دانلودر
+ref.callback_query.message.from.username= youtubedownloader_sabzlearnbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711628147
+ref.callback_query.message.text= لینک های دانلود شما:
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= 144p
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /66055f71c74ae
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= 240p
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /66055f71cc608
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= 360p
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /66055f71d2b9f
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= 480p
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /66055f71d7317
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= 720p
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.callback_data= /66055f71db16f
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.text= 720p60
+ref.callback_query.message.reply_markup.inline_keyboard.2.1.callback_data= /66055f71df842
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.text= 1080p60
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.callback_data= /66055f71e3877
+ref.callback_query.chat_instance= 4269859796947639004
+ref.callback_query.data= /66055f71c74ae
+
+
+[ref]
+ref.photo= File
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(158): Telegram->sendMessage(Array)
+#4 {main}
+

@@ -1,0 +1,106 @@
+============[Date]============
+[ 2024-04-12 15:34:32  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 758199387
+ref.callback_query.id= 6787463461978780929
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 114
+ref.callback_query.message.from.id= 6817903574
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات فروشگاهی
+ref.callback_query.message.from.username= shoppingsabzlearn_bot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1712927920
+ref.callback_query.message.text= نام محصول: 48 قانون قدرت
+قیمت محصول: 220,000
+--------------------------------------
+نام محصول: کتاب پدر پولدار پدر بی پول
+قیمت محصول: 80,000
+--------------------------------------
+
+مجموع مبلغ فاکتور: 300,000
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= پرداخت فاکتور 💰
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /pay
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= کنسل کردن ❌
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /cancel
+ref.callback_query.chat_instance= -6341391816418999718
+ref.callback_query.data= /pay
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\shop_bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\shop_bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\shop_bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\shop_bot\index.php(31): Telegram->sendMessage(Array)
+#4 D:\php\htdocs\shop_bot\index.php(273): sendMessage(5875296782, NULL)
+#5 {main}
+
+============[Date]============
+[ 2024-04-12 15:36:07  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 758199389
+ref.callback_query.id= 6787463462906748593
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 114
+ref.callback_query.message.from.id= 6817903574
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات فروشگاهی
+ref.callback_query.message.from.username= shoppingsabzlearn_bot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1712927920
+ref.callback_query.message.text= نام محصول: 48 قانون قدرت
+قیمت محصول: 220,000
+--------------------------------------
+نام محصول: کتاب پدر پولدار پدر بی پول
+قیمت محصول: 80,000
+--------------------------------------
+
+مجموع مبلغ فاکتور: 300,000
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= پرداخت فاکتور 💰
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /pay
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= کنسل کردن ❌
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /cancel
+ref.callback_query.chat_instance= -6341391816418999718
+ref.callback_query.data= /pay
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\shop_bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\shop_bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\shop_bot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\shop_bot\index.php(31): Telegram->sendMessage(Array)
+#4 D:\php\htdocs\shop_bot\index.php(273): sendMessage(5875296782, NULL)
+#5 {main}
+

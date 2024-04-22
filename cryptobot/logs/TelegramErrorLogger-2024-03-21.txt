@@ -1,0 +1,641 @@
+============[Date]============
+[ 2024-03-21 10:39:56  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190285
+ref.message.message_id= 10
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711013987
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:41:16  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190286
+ref.message.message_id= 12
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014069
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:50:13  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190293
+ref.message.message_id= 30
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014605
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 30
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:51:02  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190294
+ref.message.message_id= 32
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014655
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 32
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:51:27  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190295
+ref.message.message_id= 34
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014666
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 34
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:51:47  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190296
+ref.message.message_id= 36
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014675
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 36
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:52:11  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190297
+ref.message.message_id= 38
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014723
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 36
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:53:18  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190300
+ref.message.message_id= 44
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711014791
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 44
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 10:59:40  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190302
+ref.message.message_id= 48
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711015174
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 (BTC)","callback_data":"\/home"}]]}
+ref.text= سلام خوبی؟ به ربات قیمت ارز دیجیتال خوش اومدی
+ref.message_id= 48
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(35): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 11:30:14  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190317
+ref.message.message_id= 75
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711017007
+ref.message.text= کوین
+
+
+[ref]
+ref.text= [{"key":"BTC","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"Bitcoin","rank":1,"dominance":52.0049,"volume_24h":84533441272.997,"market_cap":1315629568528.4,"ath":73738,"atl":67.81,"ath_change_percentage":-9.32747,"ath_date":"2024-03-14T07:10:36Z","price":66792.89,"daily_high_price":68120,"daily_low_price":62081,"weekly_high_price":71420.031801423,"monthly_high_price":73097.767026941,"yearly_high_price":73097.767026941,"weekly_low_price":62132.517378734,"monthly_low_price":50841.081094771,"yearly_low_price":25107.754695881,"percent_change_1h":-1.19971586,"percent_change_24h":5.81469,"percent_change_7d":-0.72959387,"percent_change_14d":-2.24181,"percent_change_30d":30.29549401,"percent_change_60d":57.25526915,"percent_change_200d":-57.78799,"percent_change_1y":-38.93748,"price_change_24h":3674.07,"price_change_7d":-5990.7670269413,"price_change_14d":961.08072149154,"price_change_30d":15342.686814512,"price_change_60d":25480.892889963,"price_change_200d":41253.343157222,"price_change_1y":38842.760389478,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19660268,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"BCH","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 \u06a9\u0634","name_en":"Bitcoin Cash","rank":17,"dominance":0.3068,"volume_24h":917938139.76383,"market_cap":7789353136.9891,"ath":3785.82,"atl":76.93,"ath_change_percentage":-88.59068,"ath_date":"2017-12-20T00:00:00Z","price":430.42,"daily_high_price":434.66,"daily_low_price":362.97,"weekly_high_price":449.09993610316,"monthly_high_price":501.74912360337,"yearly_high_price":501.74912360337,"weekly_low_price":388.01385098633,"monthly_low_price":260.2761161026,"yearly_low_price":101.7948506584,"percent_change_1h":-2.67855025,"percent_change_24h":18.02234,"percent_change_7d":-8.99335633,"percent_change_14d":-27.80979,"percent_change_30d":42.12712073,"percent_change_60d":55.57573948,"percent_change_200d":-39.97202,"percent_change_1y":-32.04174,"price_change_24h":65.96,"price_change_7d":-19.267459330361,"price_change_14d":-65.067426717867,"price_change_30d":129.26981473663,"price_change_60d":160.00828012806,"price_change_200d":188.31342210329,"price_change_1y":272.31435805759,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19674581.146651,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"LTC","name":"\u0644\u0627\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"LiteCoin","rank":20,"dominance":0.2521,"volume_24h":1090208479.462,"market_cap":6386516955.833,"ath":410.26,"atl":1.15,"ath_change_percentage":-79.28612,"ath_date":"2021-05-10T03:13:07Z","price":84.98,"daily_high_price":86.13,"daily_low_price":78.24,"weekly_high_price":72.928474398306,"monthly_high_price":72.928474398306,"yearly_high_price":113.16618113821,"weekly_low_price":69.077065498218,"monthly_low_price":65.512005929358,"yearly_low_price":58.763608237383,"percent_change_1h":-1.86238459,"percent_change_24h":4.73085,"percent_change_7d":-1.79511831,"percent_change_14d":-10.37099,"percent_change_30d":22.54958262,"percent_change_60d":21.65784649,"percent_change_200d":-67.18393,"percent_change_1y":-61.97827,"price_change_24h":3.84,"price_change_7d":-0.6504800384364,"price_change_14d":2.0453451594788,"price_change_30d":0.65891343676475,"price_change_60d":-0.74553348002551,"price_change_200d":-22.269380686475,"price_change_1y":-29.210069774917,"max_supply":84000000,"total_supply":84000000,"circulating_supply":74333826.983471,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"DOGE","name":"\u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Dogecoin","rank":9,"dominance":0.8848,"volume_24h":4961352079.6506,"market_cap":22384344918.401,"ath":0.731578,"atl":8.69e-5,"ath_change_percentage":-79.23561,"ath_date":"2021-05-08T05:08:23Z","price":0.15188,"daily_high_price":0.156543,"daily_low_price":0.127589,"weekly_high_price":0.092056361276831,"monthly_high_price":0.10179931271824,"yearly_high_price":0.10179931271824,"weekly_low_price":0.08193683499231,"monthly_low_price":0.08193683499231,"yearly_low_price":0.057836153442926,"percent_change_1h":-3.59752564,"percent_change_24h":13.73234,"percent_change_7d":-9.39585252,"percent_change_14d":-12.2273,"percent_change_30d":88.30680711,"percent_change_60d":91.62421337,"percent_change_200d":-62.7809,"percent_change_1y":-69.42681,"price_change_24h":0.01834173,"price_change_7d":-0.011151404686914,"price_change_14d":-0.0089775128862912,"price_change_30d":-0.0093229926472158,"price_change_60d":0.013317861174368,"price_change_200d":0.020125314746175,"price_change_1y":0.011844868484251,"max_supply":null,"total_supply":143556396383.7,"circulating_supply":143539316383.7,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"BNB","name":"\u0628\u0627\u06cc\u0646\u0646\u0633 \u06a9\u0648\u06cc\u0646","name_en":"Binance Coin","rank":4,"dominance":3.3494,"volume_24h":5266100709.0759,"market_cap":85030841664.252,"ath":686.31,"atl":0.0398177,"ath_change_percentage":-18.84113,"ath_date":"2021-05-10T07:24:17Z","price":569.5461,"daily_high_price":561.33,"daily_low_price":504.51,"weekly_high_price":234.23991448664,"monthly_high_price":253.6478135777,"yearly_high_price":347.86558930987,"weekly_low_price":227.19638072093,"monthly_low_price":227.19638072093,"yearly_low_price":204.99891579978,"percent_change_1h":-1.15491957,"percent_change_24h":5.71308,"percent_change_7d":20.72959817,"percent_change_14d":-0.7517,"percent_change_30d":70.79808377,"percent_change_60d":81.5173063,"percent_change_200d":-56.46717,"percent_change_1y":-26.7271,"price_change_24h":30.1,"price_change_7d":-3.9694730847035,"price_change_14d":-13.062704169517,"price_change_30d":3.2145836279563,"price_change_60d":11.816153406054,"price_change_200d":-82.122343846084,"price_change_1y":-71.926165716857,"max_supply":200000000,"total_supply":153856150,"circulating_supply":153856150,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"FIL","name":"\u0641\u0627\u06cc\u0644 \u06a9\u0648\u06cc\u0646","name_en":"Filecoin","rank":25,"dominance":0.1917,"volume_24h":760425923.27376,"market_cap":4908188276.2227,"ath":236.84,"atl":2.64,"ath_change_percentage":-96.18139,"ath_date":"2021-04-01T13:29:41Z","price":9.3,"daily_high_price":9.1,"daily_low_price":7.8,"weekly_high_price":4.7754746675844,"monthly_high_price":5.2230061729392,"yearly_high_price":8.6383909278775,"weekly_low_price":4.3789822795601,"monthly_low_price":3.9305140781761,"yearly_low_price":2.8079826292323,"percent_change_1h":-0.62032897,"percent_change_24h":11.55132,"percent_change_7d":-8.8080888,"percent_change_14d":-8.55745,"percent_change_30d":65.91309776,"percent_change_60d":57.60456158,"percent_change_200d":-85.01541,"percent_change_1y":-90.18583,"price_change_24h":0.945346,"price_change_7d":-0.047993111159223,"price_change_14d":-0.40883231870122,"price_change_30d":0.6137097892544,"price_change_60d":0.97754407955252,"price_change_200d":-0.008017918972544,"price_change_1y":0.010882152254875,"max_supply":1960831480,"total_supply":1960831254,"circulating_supply":525865100,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"ENJ","name":"\u0627\u0646\u062c\u06cc\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Enjin Coin","rank":119,"dominance":0.0295,"volume_24h":83082350.270086,"market_cap":751668821.84631,"ath":4.82,"atl":0.01865964,"ath_change_percentage":-89.50663,"ath_date":"2021-11-25T09:53:41Z","price":0.63905230765734,"daily_high_price":0.523938,"daily_low_price":0.450592,"weekly_high_price":0.30477906925032,"monthly_high_price":0.32106583705158,"yearly_high_price":0.54725824669495,"weekly_low_price":0.2733159593364,"monthly_low_price":0.25091702144231,"yearly_low_price":0.20651055998011,"percent_change_1h":-1.49258604,"percent_change_24h":7.52623,"percent_change_7d":-1.61045696,"percent_change_14d":null,"percent_change_30d":70.31705846,"percent_change_60d":76.99818118,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.03539692,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":1792162406.9097,"circulating_supply":1425379715.5057,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"APE","name":"\u0627\u06cc\u067e \u06a9\u0648\u06cc\u0646","name_en":"ApeCoin","rank":83,"dominance":0.0494,"volume_24h":188782979.16412,"market_cap":1257560538.6633,"ath":26.7,"atl":1.008,"ath_change_percentage":-92.85269,"ath_date":"2022-04-28T21:44:21Z","price":1.935,"daily_high_price":1.95,"daily_low_price":1.75,"weekly_high_price":1.5369209804566,"monthly_high_price":1.5369209804566,"yearly_high_price":6.2852536637212,"weekly_low_price":1.3921006537368,"monthly_low_price":1.047023151996,"yearly_low_price":1.0254563741147,"percent_change_1h":-1.41175992,"percent_change_24h":6.06263,"percent_change_7d":-4.84353469,"percent_change_14d":-2.11092,"percent_change_30d":32.64474957,"percent_change_60d":46.31393994,"percent_change_200d":0,"percent_change_1y":0,"price_change_24h":0.109669,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":612239583,"type":"EXCHANGE","created_at":"2022-07-11T13:34:07Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"C98","name":"\u06a9\u0648\u06cc\u0646 \u06f9\u06f8","name_en":"Coin98","rank":262,"dominance":0.0108,"volume_24h":37642999.079216,"market_cap":274066822.48177,"ath":6.42,"atl":0.123233,"ath_change_percentage":-94.42191,"ath_date":"2021-08-25T12:26:13Z","price":0.36808190934718,"daily_high_price":0.36579,"daily_low_price":0.32505,"weekly_high_price":0.26494686825497,"monthly_high_price":0.30868333075873,"yearly_high_price":0.33617444757031,"weekly_low_price":0.22663912122688,"monthly_low_price":0.21784184883578,"yearly_low_price":0.12713918771574,"percent_change_1h":-3.29474442,"percent_change_24h":5.78035,"percent_change_7d":-11.45654425,"percent_change_14d":null,"percent_change_30d":32.17813594,"percent_change_60d":45.8229002,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.01968974,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":733888778,"type":"OTC","created_at":"2022-09-03T08:42:15Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"BABYDOGE","name":"\u0628\u06cc\u0628\u06cc \u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Baby Doge Coin","rank":null,"dominance":null,"volume_24h":null,"market_cap":null,"ath":6.345e-9,"atl":9.4771e-11,"ath_change_percentage":-61.83871,"ath_date":"2022-01-16T20:24:43Z","price":2.59e-9,"daily_high_price":2.5e-9,"daily_low_price":2.214e-9,"weekly_high_price":1.6024599377849e-9,"monthly_high_price":1.6024599377849e-9,"yearly_high_price":4.226476243296e-9,"weekly_low_price":1.4438234021668e-9,"monthly_low_price":1.1056697328988e-9,"yearly_low_price":9.1103464509222e-10,"percent_change_1h":null,"percent_change_24h":8.96739,"percent_change_7d":null,"percent_change_14d":null,"percent_change_30d":null,"percent_change_60d":null,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":1.99374e-10,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":4.2e+17,"total_supply":4.2e+17,"circulating_supply":1.4633099163914e+17,"type":"EXCHANGE","created_at":"2023-05-30T16:55:16Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"TON","name":"\u062a\u0648\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Toncoin","rank":13,"dominance":0.5006,"volume_24h":223961100.95858,"market_cap":12708327905.689,"ath":5.29,"atl":0.519364,"ath_change_percentage":-22.68086,"ath_date":"2021-11-12T06:50:02Z","price":4.0707936207372,"daily_high_price":4.34,"daily_low_price":3.96,"weekly_high_price":2.5386599698723,"monthly_high_price":2.5386599698723,"yearly_high_price":2.6627899228629,"weekly_low_price":2.2034368584254,"monthly_low_price":1.9172381108373,"yearly_low_price":1.1773473710474,"percent_change_1h":-1.13103796,"percent_change_24h":0.73711,"percent_change_7d":33.0736726,"percent_change_14d":null,"percent_change_30d":65.82639915,"percent_change_60d":55.43571546,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.02998508,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":5104492928.4158,"circulating_supply":3469164171.0106,"type":"OTC","created_at":"2023-09-04T10:00:54Z","updated_at":"2024-03-21T10:29:12Z"},{"key":"WLD","name":"\u0648\u0631\u0644\u062f\u06a9\u0648\u06cc\u0646","name_en":"WorldCoin","rank":76,"dominance":0.0536,"volume_24h":1114419756.3507,"market_cap":1364164682.1594,"ath":11.74,"atl":0.973104,"ath_change_percentage":-30.57397,"ath_date":"2024-03-10T00:10:42Z","price":8.060083820697,"daily_high_price":8.44,"daily_low_price":7.47,"weekly_high_price":null,"monthly_high_price":null,"yearly_high_price":null,"weekly_low_price":null,"monthly_low_price":null,"yearly_low_price":null,"percent_change_1h":-1.93361264,"percent_change_24h":4.96915,"percent_change_7d":22.62495738,"percent_change_14d":null,"percent_change_30d":208.07689928,"percent_change_60d":222.50376218,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.387122,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":10000000000,"total_supply":10000000000,"circulating_supply":154919498.0355,"type":"OTC","created_at":"2024-02-24T15:54:36Z","updated_at":"2024-03-21T10:29:12Z"}]
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\cryptobot\index.php(61): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 11:32:13  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190319
+ref.message.message_id= 79
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711017128
+ref.message.text= کوین
+
+
+[ref]
+ref.text= [{"key":"BTC","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"Bitcoin","rank":1,"dominance":52.0049,"volume_24h":84533441272.997,"market_cap":1315629568528.4,"ath":73738,"atl":67.81,"ath_change_percentage":-9.37283,"ath_date":"2024-03-14T07:10:36Z","price":66792.89,"daily_high_price":68120,"daily_low_price":62081,"weekly_high_price":71420.031801423,"monthly_high_price":73097.767026941,"yearly_high_price":73097.767026941,"weekly_low_price":62132.517378734,"monthly_low_price":50841.081094771,"yearly_low_price":25107.754695881,"percent_change_1h":-1.19971586,"percent_change_24h":5.84932,"percent_change_7d":-0.72959387,"percent_change_14d":-2.24181,"percent_change_30d":30.29549401,"percent_change_60d":57.25526915,"percent_change_200d":-57.78799,"percent_change_1y":-38.93748,"price_change_24h":3699.31,"price_change_7d":-5990.7670269413,"price_change_14d":961.08072149154,"price_change_30d":15342.686814512,"price_change_60d":25480.892889963,"price_change_200d":41253.343157222,"price_change_1y":38842.760389478,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19660275,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"BCH","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 \u06a9\u0634","name_en":"Bitcoin Cash","rank":17,"dominance":0.3068,"volume_24h":917938139.76383,"market_cap":7789353136.9891,"ath":3785.82,"atl":76.93,"ath_change_percentage":-88.63642,"ath_date":"2017-12-20T00:00:00Z","price":430.42,"daily_high_price":434.66,"daily_low_price":362.97,"weekly_high_price":449.09993610316,"monthly_high_price":501.74912360337,"yearly_high_price":501.74912360337,"weekly_low_price":388.01385098633,"monthly_low_price":260.2761161026,"yearly_low_price":101.7948506584,"percent_change_1h":-2.67855025,"percent_change_24h":17.65567,"percent_change_7d":-8.99335633,"percent_change_14d":-27.80979,"percent_change_30d":42.12712073,"percent_change_60d":55.57573948,"percent_change_200d":-39.97202,"percent_change_1y":-32.04174,"price_change_24h":64.69,"price_change_7d":-19.267459330361,"price_change_14d":-65.067426717867,"price_change_30d":129.26981473663,"price_change_60d":160.00828012806,"price_change_200d":188.31342210329,"price_change_1y":272.31435805759,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19674612.396651,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"LTC","name":"\u0644\u0627\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"LiteCoin","rank":20,"dominance":0.2521,"volume_24h":1090208479.462,"market_cap":6386516955.833,"ath":410.26,"atl":1.15,"ath_change_percentage":-79.26305,"ath_date":"2021-05-10T03:13:07Z","price":84.98,"daily_high_price":86.13,"daily_low_price":78.24,"weekly_high_price":72.928474398306,"monthly_high_price":72.928474398306,"yearly_high_price":113.16618113821,"weekly_low_price":69.077065498218,"monthly_low_price":65.512005929358,"yearly_low_price":58.763608237383,"percent_change_1h":-1.86238459,"percent_change_24h":4.9367,"percent_change_7d":-1.79511831,"percent_change_14d":-10.37099,"percent_change_30d":22.54958262,"percent_change_60d":21.65784649,"percent_change_200d":-67.18393,"percent_change_1y":-61.97827,"price_change_24h":4.01,"price_change_7d":-0.6504800384364,"price_change_14d":2.0453451594788,"price_change_30d":0.65891343676475,"price_change_60d":-0.74553348002551,"price_change_200d":-22.269380686475,"price_change_1y":-29.210069774917,"max_supply":84000000,"total_supply":84000000,"circulating_supply":74333901.983471,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"DOGE","name":"\u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Dogecoin","rank":9,"dominance":0.8848,"volume_24h":4961352079.6506,"market_cap":22384344918.401,"ath":0.731578,"atl":8.69e-5,"ath_change_percentage":-79.29046,"ath_date":"2021-05-08T05:08:23Z","price":0.15187,"daily_high_price":0.156543,"daily_low_price":0.127589,"weekly_high_price":0.092056361276831,"monthly_high_price":0.10179931271824,"yearly_high_price":0.10179931271824,"weekly_low_price":0.08193683499231,"monthly_low_price":0.08193683499231,"yearly_low_price":0.057836153442926,"percent_change_1h":-3.59752564,"percent_change_24h":13.36915,"percent_change_7d":-9.39585252,"percent_change_14d":-12.2273,"percent_change_30d":88.30680711,"percent_change_60d":91.62421337,"percent_change_200d":-62.7809,"percent_change_1y":-69.42681,"price_change_24h":0.01790707,"price_change_7d":-0.011151404686914,"price_change_14d":-0.0089775128862912,"price_change_30d":-0.0093229926472158,"price_change_60d":0.013317861174368,"price_change_200d":0.020125314746175,"price_change_1y":0.011844868484251,"max_supply":null,"total_supply":143556396383.7,"circulating_supply":143539316383.7,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"BNB","name":"\u0628\u0627\u06cc\u0646\u0646\u0633 \u06a9\u0648\u06cc\u0646","name_en":"Binance Coin","rank":4,"dominance":3.3494,"volume_24h":5266100709.0759,"market_cap":85030841664.252,"ath":686.31,"atl":0.0398177,"ath_change_percentage":-17.91012,"ath_date":"2021-05-10T07:24:17Z","price":569.5461,"daily_high_price":566.13,"daily_low_price":504.51,"weekly_high_price":234.23991448664,"monthly_high_price":253.6478135777,"yearly_high_price":347.86558930987,"weekly_low_price":227.19638072093,"monthly_low_price":227.19638072093,"yearly_low_price":204.99891579978,"percent_change_1h":-1.15491957,"percent_change_24h":7.21628,"percent_change_7d":20.72959817,"percent_change_14d":-0.7517,"percent_change_30d":70.79808377,"percent_change_60d":81.5173063,"percent_change_200d":-56.46717,"percent_change_1y":-26.7271,"price_change_24h":38.17,"price_change_7d":-3.9694730847035,"price_change_14d":-13.062704169517,"price_change_30d":3.2145836279563,"price_change_60d":11.816153406054,"price_change_200d":-82.122343846084,"price_change_1y":-71.926165716857,"max_supply":200000000,"total_supply":153856150,"circulating_supply":153856150,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"FIL","name":"\u0641\u0627\u06cc\u0644 \u06a9\u0648\u06cc\u0646","name_en":"Filecoin","rank":25,"dominance":0.1917,"volume_24h":760425923.27376,"market_cap":4908188276.2227,"ath":236.84,"atl":2.64,"ath_change_percentage":-96.1376,"ath_date":"2021-04-01T13:29:41Z","price":9.3,"daily_high_price":9.21,"daily_low_price":7.8,"weekly_high_price":4.7754746675844,"monthly_high_price":5.2230061729392,"yearly_high_price":8.6383909278775,"weekly_low_price":4.3789822795601,"monthly_low_price":3.9305140781761,"yearly_low_price":2.8079826292323,"percent_change_1h":-0.62032897,"percent_change_24h":13.06921,"percent_change_7d":-8.8080888,"percent_change_14d":-8.55745,"percent_change_30d":65.91309776,"percent_change_60d":57.60456158,"percent_change_200d":-85.01541,"percent_change_1y":-90.18583,"price_change_24h":1.071,"price_change_7d":-0.047993111159223,"price_change_14d":-0.40883231870122,"price_change_30d":0.6137097892544,"price_change_60d":0.97754407955252,"price_change_200d":-0.008017918972544,"price_change_1y":0.010882152254875,"max_supply":1960831254,"total_supply":1960831254,"circulating_supply":525876843,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"ENJ","name":"\u0627\u0646\u062c\u06cc\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Enjin Coin","rank":119,"dominance":0.0295,"volume_24h":83082350.270086,"market_cap":751668821.84631,"ath":4.82,"atl":0.01865964,"ath_change_percentage":-89.46484,"ath_date":"2021-11-25T09:53:41Z","price":0.63905230765734,"daily_high_price":0.523938,"daily_low_price":0.450592,"weekly_high_price":0.30477906925032,"monthly_high_price":0.32106583705158,"yearly_high_price":0.54725824669495,"weekly_low_price":0.2733159593364,"monthly_low_price":0.25091702144231,"yearly_low_price":0.20651055998011,"percent_change_1h":-1.49258604,"percent_change_24h":7.43665,"percent_change_7d":-1.61045696,"percent_change_14d":null,"percent_change_30d":70.31705846,"percent_change_60d":76.99818118,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.03518117,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":1792162406.9097,"circulating_supply":1425379715.5057,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"APE","name":"\u0627\u06cc\u067e \u06a9\u0648\u06cc\u0646","name_en":"ApeCoin","rank":83,"dominance":0.0494,"volume_24h":188782979.16412,"market_cap":1257560538.6633,"ath":26.7,"atl":1.008,"ath_change_percentage":-92.77479,"ath_date":"2022-04-28T21:44:21Z","price":1.935,"daily_high_price":1.95,"daily_low_price":1.75,"weekly_high_price":1.5369209804566,"monthly_high_price":1.5369209804566,"yearly_high_price":6.2852536637212,"weekly_low_price":1.3921006537368,"monthly_low_price":1.047023151996,"yearly_low_price":1.0254563741147,"percent_change_1h":-1.41175992,"percent_change_24h":6.43491,"percent_change_7d":-4.84353469,"percent_change_14d":-2.11092,"percent_change_30d":32.64474957,"percent_change_60d":46.31393994,"percent_change_200d":0,"percent_change_1y":0,"price_change_24h":0.116813,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":612239583,"type":"EXCHANGE","created_at":"2022-07-11T13:34:07Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"C98","name":"\u06a9\u0648\u06cc\u0646 \u06f9\u06f8","name_en":"Coin98","rank":262,"dominance":0.0108,"volume_24h":37642999.079216,"market_cap":274066822.48177,"ath":6.42,"atl":0.123233,"ath_change_percentage":-94.3432,"ath_date":"2021-08-25T12:26:13Z","price":0.36808190934718,"daily_high_price":0.36579,"daily_low_price":0.32505,"weekly_high_price":0.26494686825497,"monthly_high_price":0.30868333075873,"yearly_high_price":0.33617444757031,"weekly_low_price":0.22663912122688,"monthly_low_price":0.21784184883578,"yearly_low_price":0.12713918771574,"percent_change_1h":-3.29474442,"percent_change_24h":6.70401,"percent_change_7d":-11.45654425,"percent_change_14d":null,"percent_change_30d":32.17813594,"percent_change_60d":45.8229002,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.02287179,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":733888778,"type":"OTC","created_at":"2022-09-03T08:42:15Z","updated_at":"2024-03-21T10:31:11Z"},{"key":"BABYDOGE","name":"\u0628\u06cc\u0628\u06cc \u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Baby Doge Coin","rank":null,"dominance":null,"volume_24h":null,"market_cap":null,"ath":6.345e-9,"atl":9.4771e-11,"ath_change_percentage":-61.82988,"ath_date":"2022-01-16T20:24:43Z","price":2.59e-9,"daily_high_price":2.5e-9,"daily_low_price":2.214e-9,"weekly_high_price":1.6024599377849e-9,"monthly_high_price":1.6024599377849e-9,"yearly_high_price":4.226476243296e-9,"weekly_low_price":1.4438234021668e-9,"monthly_low_price":1.1056697328988e-9,"yearly_low_price":9.1103464509222e-10,"percent_change_1h":null,"percent_change_24h":8.03244,"percent_change_7d":null,"percent_change_14d":null,"percent_change_30d":null,"percent_change_60d":null,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":1.80413e-10,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":4.2e+17,"total_supply":4.2e+17,"circulating_supply":1.4633099163914e+17,"type":"EXCHANGE","created_at":"2023-05-30T16:55:16Z","updated_at":"2024-03-21T10:31:11Z"}]
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\cryptobot\index.php(61): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 11:33:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190322
+ref.message.message_id= 86
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711017227
+ref.message.text= کوین
+
+
+[ref]
+ref.text= [{"key":"BTC","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"Bitcoin","rank":1,"dominance":52.0049,"volume_24h":84533441272.997,"market_cap":1315629568528.4,"ath":73738,"atl":67.81,"ath_change_percentage":-9.37283,"ath_date":"2024-03-14T07:10:36Z","price":66977.25,"daily_high_price":68120,"daily_low_price":62081,"weekly_high_price":71420.031801423,"monthly_high_price":73097.767026941,"yearly_high_price":73097.767026941,"weekly_low_price":62132.517378734,"monthly_low_price":50841.081094771,"yearly_low_price":25107.754695881,"percent_change_1h":-1.19971586,"percent_change_24h":5.84932,"percent_change_7d":-0.72959387,"percent_change_14d":-2.24181,"percent_change_30d":30.29549401,"percent_change_60d":57.25526915,"percent_change_200d":-57.78799,"percent_change_1y":-38.93748,"price_change_24h":3699.31,"price_change_7d":-5990.7670269413,"price_change_14d":961.08072149154,"price_change_30d":15342.686814512,"price_change_60d":25480.892889963,"price_change_200d":41253.343157222,"price_change_1y":38842.760389478,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19660275,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BCH","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 \u06a9\u0634","name_en":"Bitcoin Cash","rank":17,"dominance":0.3068,"volume_24h":917938139.76383,"market_cap":7789353136.9891,"ath":3785.82,"atl":76.93,"ath_change_percentage":-88.63642,"ath_date":"2017-12-20T00:00:00Z","price":430.42,"daily_high_price":434.66,"daily_low_price":362.97,"weekly_high_price":449.09993610316,"monthly_high_price":501.74912360337,"yearly_high_price":501.74912360337,"weekly_low_price":388.01385098633,"monthly_low_price":260.2761161026,"yearly_low_price":101.7948506584,"percent_change_1h":-2.67855025,"percent_change_24h":17.65567,"percent_change_7d":-8.99335633,"percent_change_14d":-27.80979,"percent_change_30d":42.12712073,"percent_change_60d":55.57573948,"percent_change_200d":-39.97202,"percent_change_1y":-32.04174,"price_change_24h":64.69,"price_change_7d":-19.267459330361,"price_change_14d":-65.067426717867,"price_change_30d":129.26981473663,"price_change_60d":160.00828012806,"price_change_200d":188.31342210329,"price_change_1y":272.31435805759,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19674612.396651,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"LTC","name":"\u0644\u0627\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"LiteCoin","rank":20,"dominance":0.2521,"volume_24h":1090208479.462,"market_cap":6386516955.833,"ath":410.26,"atl":1.15,"ath_change_percentage":-79.26305,"ath_date":"2021-05-10T03:13:07Z","price":84.98,"daily_high_price":86.13,"daily_low_price":78.24,"weekly_high_price":72.928474398306,"monthly_high_price":72.928474398306,"yearly_high_price":113.16618113821,"weekly_low_price":69.077065498218,"monthly_low_price":65.512005929358,"yearly_low_price":58.763608237383,"percent_change_1h":-1.86238459,"percent_change_24h":4.9367,"percent_change_7d":-1.79511831,"percent_change_14d":-10.37099,"percent_change_30d":22.54958262,"percent_change_60d":21.65784649,"percent_change_200d":-67.18393,"percent_change_1y":-61.97827,"price_change_24h":4.01,"price_change_7d":-0.6504800384364,"price_change_14d":2.0453451594788,"price_change_30d":0.65891343676475,"price_change_60d":-0.74553348002551,"price_change_200d":-22.269380686475,"price_change_1y":-29.210069774917,"max_supply":84000000,"total_supply":84000000,"circulating_supply":74333901.983471,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"DOGE","name":"\u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Dogecoin","rank":9,"dominance":0.8848,"volume_24h":4961352079.6506,"market_cap":22384344918.401,"ath":0.731578,"atl":8.69e-5,"ath_change_percentage":-79.29046,"ath_date":"2021-05-08T05:08:23Z","price":0.15137,"daily_high_price":0.156543,"daily_low_price":0.127589,"weekly_high_price":0.092056361276831,"monthly_high_price":0.10179931271824,"yearly_high_price":0.10179931271824,"weekly_low_price":0.08193683499231,"monthly_low_price":0.08193683499231,"yearly_low_price":0.057836153442926,"percent_change_1h":-3.59752564,"percent_change_24h":13.36915,"percent_change_7d":-9.39585252,"percent_change_14d":-12.2273,"percent_change_30d":88.30680711,"percent_change_60d":91.62421337,"percent_change_200d":-62.7809,"percent_change_1y":-69.42681,"price_change_24h":0.01790707,"price_change_7d":-0.011151404686914,"price_change_14d":-0.0089775128862912,"price_change_30d":-0.0093229926472158,"price_change_60d":0.013317861174368,"price_change_200d":0.020125314746175,"price_change_1y":0.011844868484251,"max_supply":null,"total_supply":143556396383.7,"circulating_supply":143539316383.7,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BNB","name":"\u0628\u0627\u06cc\u0646\u0646\u0633 \u06a9\u0648\u06cc\u0646","name_en":"Binance Coin","rank":4,"dominance":3.3494,"volume_24h":5266100709.0759,"market_cap":85030841664.252,"ath":686.31,"atl":0.0398177,"ath_change_percentage":-17.91012,"ath_date":"2021-05-10T07:24:17Z","price":569.5461,"daily_high_price":566.13,"daily_low_price":504.51,"weekly_high_price":234.23991448664,"monthly_high_price":253.6478135777,"yearly_high_price":347.86558930987,"weekly_low_price":227.19638072093,"monthly_low_price":227.19638072093,"yearly_low_price":204.99891579978,"percent_change_1h":-1.15491957,"percent_change_24h":7.21628,"percent_change_7d":20.72959817,"percent_change_14d":-0.7517,"percent_change_30d":70.79808377,"percent_change_60d":81.5173063,"percent_change_200d":-56.46717,"percent_change_1y":-26.7271,"price_change_24h":38.17,"price_change_7d":-3.9694730847035,"price_change_14d":-13.062704169517,"price_change_30d":3.2145836279563,"price_change_60d":11.816153406054,"price_change_200d":-82.122343846084,"price_change_1y":-71.926165716857,"max_supply":200000000,"total_supply":153856150,"circulating_supply":153856150,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"FIL","name":"\u0641\u0627\u06cc\u0644 \u06a9\u0648\u06cc\u0646","name_en":"Filecoin","rank":25,"dominance":0.1917,"volume_24h":760425923.27376,"market_cap":4908188276.2227,"ath":236.84,"atl":2.64,"ath_change_percentage":-96.1376,"ath_date":"2021-04-01T13:29:41Z","price":9.3,"daily_high_price":9.21,"daily_low_price":7.8,"weekly_high_price":4.7754746675844,"monthly_high_price":5.2230061729392,"yearly_high_price":8.6383909278775,"weekly_low_price":4.3789822795601,"monthly_low_price":3.9305140781761,"yearly_low_price":2.8079826292323,"percent_change_1h":-0.62032897,"percent_change_24h":13.06921,"percent_change_7d":-8.8080888,"percent_change_14d":-8.55745,"percent_change_30d":65.91309776,"percent_change_60d":57.60456158,"percent_change_200d":-85.01541,"percent_change_1y":-90.18583,"price_change_24h":1.071,"price_change_7d":-0.047993111159223,"price_change_14d":-0.40883231870122,"price_change_30d":0.6137097892544,"price_change_60d":0.97754407955252,"price_change_200d":-0.008017918972544,"price_change_1y":0.010882152254875,"max_supply":1960831254,"total_supply":1960831254,"circulating_supply":525876843,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"ENJ","name":"\u0627\u0646\u062c\u06cc\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Enjin Coin","rank":119,"dominance":0.0295,"volume_24h":83082350.270086,"market_cap":751668821.84631,"ath":4.82,"atl":0.01865964,"ath_change_percentage":-89.46484,"ath_date":"2021-11-25T09:53:41Z","price":0.63905230765734,"daily_high_price":0.523938,"daily_low_price":0.450592,"weekly_high_price":0.30477906925032,"monthly_high_price":0.32106583705158,"yearly_high_price":0.54725824669495,"weekly_low_price":0.2733159593364,"monthly_low_price":0.25091702144231,"yearly_low_price":0.20651055998011,"percent_change_1h":-1.49258604,"percent_change_24h":7.43665,"percent_change_7d":-1.61045696,"percent_change_14d":null,"percent_change_30d":70.31705846,"percent_change_60d":76.99818118,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.03518117,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":1792162406.9097,"circulating_supply":1425379715.5057,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"APE","name":"\u0627\u06cc\u067e \u06a9\u0648\u06cc\u0646","name_en":"ApeCoin","rank":83,"dominance":0.0494,"volume_24h":188782979.16412,"market_cap":1257560538.6633,"ath":26.7,"atl":1.008,"ath_change_percentage":-92.77479,"ath_date":"2022-04-28T21:44:21Z","price":1.935,"daily_high_price":1.95,"daily_low_price":1.75,"weekly_high_price":1.5369209804566,"monthly_high_price":1.5369209804566,"yearly_high_price":6.2852536637212,"weekly_low_price":1.3921006537368,"monthly_low_price":1.047023151996,"yearly_low_price":1.0254563741147,"percent_change_1h":-1.41175992,"percent_change_24h":6.43491,"percent_change_7d":-4.84353469,"percent_change_14d":-2.11092,"percent_change_30d":32.64474957,"percent_change_60d":46.31393994,"percent_change_200d":0,"percent_change_1y":0,"price_change_24h":0.116813,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":612239583,"type":"EXCHANGE","created_at":"2022-07-11T13:34:07Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"C98","name":"\u06a9\u0648\u06cc\u0646 \u06f9\u06f8","name_en":"Coin98","rank":262,"dominance":0.0108,"volume_24h":37642999.079216,"market_cap":274066822.48177,"ath":6.42,"atl":0.123233,"ath_change_percentage":-94.3432,"ath_date":"2021-08-25T12:26:13Z","price":0.36808190934718,"daily_high_price":0.36579,"daily_low_price":0.32505,"weekly_high_price":0.26494686825497,"monthly_high_price":0.30868333075873,"yearly_high_price":0.33617444757031,"weekly_low_price":0.22663912122688,"monthly_low_price":0.21784184883578,"yearly_low_price":0.12713918771574,"percent_change_1h":-3.29474442,"percent_change_24h":6.70401,"percent_change_7d":-11.45654425,"percent_change_14d":null,"percent_change_30d":32.17813594,"percent_change_60d":45.8229002,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.02287179,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":733888778,"type":"OTC","created_at":"2022-09-03T08:42:15Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BABYDOGE","name":"\u0628\u06cc\u0628\u06cc \u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Baby Doge Coin","rank":null,"dominance":null,"volume_24h":null,"market_cap":null,"ath":6.345e-9,"atl":9.4771e-11,"ath_change_percentage":-61.82988,"ath_date":"2022-01-16T20:24:43Z","price":2.59e-9,"daily_high_price":2.5e-9,"daily_low_price":2.214e-9,"weekly_high_price":1.6024599377849e-9,"monthly_high_price":1.6024599377849e-9,"yearly_high_price":4.226476243296e-9,"weekly_low_price":1.4438234021668e-9,"monthly_low_price":1.1056697328988e-9,"yearly_low_price":9.1103464509222e-10,"percent_change_1h":null,"percent_change_24h":8.03244,"percent_change_7d":null,"percent_change_14d":null,"percent_change_30d":null,"percent_change_60d":null,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":1.80413e-10,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":4.2e+17,"total_supply":4.2e+17,"circulating_supply":1.4633099163914e+17,"type":"EXCHANGE","created_at":"2023-05-30T16:55:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"TON","name":"\u062a\u0648\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Toncoin","rank":13,"dominance":0.5006,"volume_24h":223961100.95858,"market_cap":12708327905.689,"ath":5.29,"atl":0.519364,"ath_change_percentage":-22.05445,"ath_date":"2021-11-12T06:50:02Z","price":4.0707936207372,"daily_high_price":4.34,"daily_low_price":3.98,"weekly_high_price":2.5386599698723,"monthly_high_price":2.5386599698723,"yearly_high_price":2.6627899228629,"weekly_low_price":2.2034368584254,"monthly_low_price":1.9172381108373,"yearly_low_price":1.1773473710474,"percent_change_1h":-1.13103796,"percent_change_24h":3.55478,"percent_change_7d":33.0736726,"percent_change_14d":null,"percent_change_30d":65.82639915,"percent_change_60d":55.43571546,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.141862,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":5104492928.4158,"circulating_supply":3469163791.9089,"type":"OTC","created_at":"2023-09-04T10:00:54Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"WLD","name":"\u0648\u0631\u0644\u062f\u06a9\u0648\u06cc\u0646","name_en":"WorldCoin","rank":76,"dominance":0.0536,"volume_24h":1114419756.3507,"market_cap":1364164682.1594,"ath":11.74,"atl":0.973104,"ath_change_percentage":-29.60853,"ath_date":"2024-03-10T00:10:42Z","price":8.060083820697,"daily_high_price":8.44,"daily_low_price":7.47,"weekly_high_price":null,"monthly_high_price":null,"yearly_high_price":null,"weekly_low_price":null,"monthly_low_price":null,"yearly_low_price":null,"percent_change_1h":-1.93361264,"percent_change_24h":6.16219,"percent_change_7d":22.62495738,"percent_change_14d":null,"percent_change_30d":208.07689928,"percent_change_60d":222.50376218,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.482247,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":10000000000,"total_supply":10000000000,"circulating_supply":154922972.90066,"type":"OTC","created_at":"2024-02-24T15:54:36Z","updated_at":"2024-03-21T10:33:11Z"}]
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\cryptobot\index.php(61): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 11:34:41  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190323
+ref.message.message_id= 88
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711017261
+ref.message.text= کوین
+
+
+[ref]
+ref.text= [{"key":"BTC","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"Bitcoin","rank":1,"dominance":52.0049,"volume_24h":84533441272.997,"market_cap":1315629568528.4,"ath":73738,"atl":67.81,"ath_change_percentage":-9.37283,"ath_date":"2024-03-14T07:10:36Z","price":66977.25,"daily_high_price":68120,"daily_low_price":62081,"weekly_high_price":71420.031801423,"monthly_high_price":73097.767026941,"yearly_high_price":73097.767026941,"weekly_low_price":62132.517378734,"monthly_low_price":50841.081094771,"yearly_low_price":25107.754695881,"percent_change_1h":-1.19971586,"percent_change_24h":5.84932,"percent_change_7d":-0.72959387,"percent_change_14d":-2.24181,"percent_change_30d":30.29549401,"percent_change_60d":57.25526915,"percent_change_200d":-57.78799,"percent_change_1y":-38.93748,"price_change_24h":3699.31,"price_change_7d":-5990.7670269413,"price_change_14d":961.08072149154,"price_change_30d":15342.686814512,"price_change_60d":25480.892889963,"price_change_200d":41253.343157222,"price_change_1y":38842.760389478,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19660275,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BCH","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 \u06a9\u0634","name_en":"Bitcoin Cash","rank":17,"dominance":0.3068,"volume_24h":917938139.76383,"market_cap":7789353136.9891,"ath":3785.82,"atl":76.93,"ath_change_percentage":-88.63642,"ath_date":"2017-12-20T00:00:00Z","price":430.42,"daily_high_price":434.66,"daily_low_price":362.97,"weekly_high_price":449.09993610316,"monthly_high_price":501.74912360337,"yearly_high_price":501.74912360337,"weekly_low_price":388.01385098633,"monthly_low_price":260.2761161026,"yearly_low_price":101.7948506584,"percent_change_1h":-2.67855025,"percent_change_24h":17.65567,"percent_change_7d":-8.99335633,"percent_change_14d":-27.80979,"percent_change_30d":42.12712073,"percent_change_60d":55.57573948,"percent_change_200d":-39.97202,"percent_change_1y":-32.04174,"price_change_24h":64.69,"price_change_7d":-19.267459330361,"price_change_14d":-65.067426717867,"price_change_30d":129.26981473663,"price_change_60d":160.00828012806,"price_change_200d":188.31342210329,"price_change_1y":272.31435805759,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19674612.396651,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"LTC","name":"\u0644\u0627\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"LiteCoin","rank":20,"dominance":0.2521,"volume_24h":1090208479.462,"market_cap":6386516955.833,"ath":410.26,"atl":1.15,"ath_change_percentage":-79.26305,"ath_date":"2021-05-10T03:13:07Z","price":84.98,"daily_high_price":86.13,"daily_low_price":78.24,"weekly_high_price":72.928474398306,"monthly_high_price":72.928474398306,"yearly_high_price":113.16618113821,"weekly_low_price":69.077065498218,"monthly_low_price":65.512005929358,"yearly_low_price":58.763608237383,"percent_change_1h":-1.86238459,"percent_change_24h":4.9367,"percent_change_7d":-1.79511831,"percent_change_14d":-10.37099,"percent_change_30d":22.54958262,"percent_change_60d":21.65784649,"percent_change_200d":-67.18393,"percent_change_1y":-61.97827,"price_change_24h":4.01,"price_change_7d":-0.6504800384364,"price_change_14d":2.0453451594788,"price_change_30d":0.65891343676475,"price_change_60d":-0.74553348002551,"price_change_200d":-22.269380686475,"price_change_1y":-29.210069774917,"max_supply":84000000,"total_supply":84000000,"circulating_supply":74333901.983471,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"DOGE","name":"\u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Dogecoin","rank":9,"dominance":0.8848,"volume_24h":4961352079.6506,"market_cap":22384344918.401,"ath":0.731578,"atl":8.69e-5,"ath_change_percentage":-79.29046,"ath_date":"2021-05-08T05:08:23Z","price":0.15137,"daily_high_price":0.156543,"daily_low_price":0.127589,"weekly_high_price":0.092056361276831,"monthly_high_price":0.10179931271824,"yearly_high_price":0.10179931271824,"weekly_low_price":0.08193683499231,"monthly_low_price":0.08193683499231,"yearly_low_price":0.057836153442926,"percent_change_1h":-3.59752564,"percent_change_24h":13.36915,"percent_change_7d":-9.39585252,"percent_change_14d":-12.2273,"percent_change_30d":88.30680711,"percent_change_60d":91.62421337,"percent_change_200d":-62.7809,"percent_change_1y":-69.42681,"price_change_24h":0.01790707,"price_change_7d":-0.011151404686914,"price_change_14d":-0.0089775128862912,"price_change_30d":-0.0093229926472158,"price_change_60d":0.013317861174368,"price_change_200d":0.020125314746175,"price_change_1y":0.011844868484251,"max_supply":null,"total_supply":143556396383.7,"circulating_supply":143539316383.7,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BNB","name":"\u0628\u0627\u06cc\u0646\u0646\u0633 \u06a9\u0648\u06cc\u0646","name_en":"Binance Coin","rank":4,"dominance":3.3494,"volume_24h":5266100709.0759,"market_cap":85030841664.252,"ath":686.31,"atl":0.0398177,"ath_change_percentage":-17.91012,"ath_date":"2021-05-10T07:24:17Z","price":569.5461,"daily_high_price":566.13,"daily_low_price":504.51,"weekly_high_price":234.23991448664,"monthly_high_price":253.6478135777,"yearly_high_price":347.86558930987,"weekly_low_price":227.19638072093,"monthly_low_price":227.19638072093,"yearly_low_price":204.99891579978,"percent_change_1h":-1.15491957,"percent_change_24h":7.21628,"percent_change_7d":20.72959817,"percent_change_14d":-0.7517,"percent_change_30d":70.79808377,"percent_change_60d":81.5173063,"percent_change_200d":-56.46717,"percent_change_1y":-26.7271,"price_change_24h":38.17,"price_change_7d":-3.9694730847035,"price_change_14d":-13.062704169517,"price_change_30d":3.2145836279563,"price_change_60d":11.816153406054,"price_change_200d":-82.122343846084,"price_change_1y":-71.926165716857,"max_supply":200000000,"total_supply":153856150,"circulating_supply":153856150,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"FIL","name":"\u0641\u0627\u06cc\u0644 \u06a9\u0648\u06cc\u0646","name_en":"Filecoin","rank":25,"dominance":0.1917,"volume_24h":760425923.27376,"market_cap":4908188276.2227,"ath":236.84,"atl":2.64,"ath_change_percentage":-96.1376,"ath_date":"2021-04-01T13:29:41Z","price":9.3,"daily_high_price":9.21,"daily_low_price":7.8,"weekly_high_price":4.7754746675844,"monthly_high_price":5.2230061729392,"yearly_high_price":8.6383909278775,"weekly_low_price":4.3789822795601,"monthly_low_price":3.9305140781761,"yearly_low_price":2.8079826292323,"percent_change_1h":-0.62032897,"percent_change_24h":13.06921,"percent_change_7d":-8.8080888,"percent_change_14d":-8.55745,"percent_change_30d":65.91309776,"percent_change_60d":57.60456158,"percent_change_200d":-85.01541,"percent_change_1y":-90.18583,"price_change_24h":1.071,"price_change_7d":-0.047993111159223,"price_change_14d":-0.40883231870122,"price_change_30d":0.6137097892544,"price_change_60d":0.97754407955252,"price_change_200d":-0.008017918972544,"price_change_1y":0.010882152254875,"max_supply":1960831254,"total_supply":1960831254,"circulating_supply":525876843,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"ENJ","name":"\u0627\u0646\u062c\u06cc\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Enjin Coin","rank":119,"dominance":0.0295,"volume_24h":83082350.270086,"market_cap":751668821.84631,"ath":4.82,"atl":0.01865964,"ath_change_percentage":-89.46484,"ath_date":"2021-11-25T09:53:41Z","price":0.63905230765734,"daily_high_price":0.523938,"daily_low_price":0.450592,"weekly_high_price":0.30477906925032,"monthly_high_price":0.32106583705158,"yearly_high_price":0.54725824669495,"weekly_low_price":0.2733159593364,"monthly_low_price":0.25091702144231,"yearly_low_price":0.20651055998011,"percent_change_1h":-1.49258604,"percent_change_24h":7.43665,"percent_change_7d":-1.61045696,"percent_change_14d":null,"percent_change_30d":70.31705846,"percent_change_60d":76.99818118,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.03518117,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":1792162406.9097,"circulating_supply":1425379715.5057,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"APE","name":"\u0627\u06cc\u067e \u06a9\u0648\u06cc\u0646","name_en":"ApeCoin","rank":83,"dominance":0.0494,"volume_24h":188782979.16412,"market_cap":1257560538.6633,"ath":26.7,"atl":1.008,"ath_change_percentage":-92.77479,"ath_date":"2022-04-28T21:44:21Z","price":1.935,"daily_high_price":1.95,"daily_low_price":1.75,"weekly_high_price":1.5369209804566,"monthly_high_price":1.5369209804566,"yearly_high_price":6.2852536637212,"weekly_low_price":1.3921006537368,"monthly_low_price":1.047023151996,"yearly_low_price":1.0254563741147,"percent_change_1h":-1.41175992,"percent_change_24h":6.43491,"percent_change_7d":-4.84353469,"percent_change_14d":-2.11092,"percent_change_30d":32.64474957,"percent_change_60d":46.31393994,"percent_change_200d":0,"percent_change_1y":0,"price_change_24h":0.116813,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":612239583,"type":"EXCHANGE","created_at":"2022-07-11T13:34:07Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"C98","name":"\u06a9\u0648\u06cc\u0646 \u06f9\u06f8","name_en":"Coin98","rank":262,"dominance":0.0108,"volume_24h":37642999.079216,"market_cap":274066822.48177,"ath":6.42,"atl":0.123233,"ath_change_percentage":-94.3432,"ath_date":"2021-08-25T12:26:13Z","price":0.36808190934718,"daily_high_price":0.36579,"daily_low_price":0.32505,"weekly_high_price":0.26494686825497,"monthly_high_price":0.30868333075873,"yearly_high_price":0.33617444757031,"weekly_low_price":0.22663912122688,"monthly_low_price":0.21784184883578,"yearly_low_price":0.12713918771574,"percent_change_1h":-3.29474442,"percent_change_24h":6.70401,"percent_change_7d":-11.45654425,"percent_change_14d":null,"percent_change_30d":32.17813594,"percent_change_60d":45.8229002,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.02287179,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":1000000000,"total_supply":1000000000,"circulating_supply":733888778,"type":"OTC","created_at":"2022-09-03T08:42:15Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"BABYDOGE","name":"\u0628\u06cc\u0628\u06cc \u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Baby Doge Coin","rank":null,"dominance":null,"volume_24h":null,"market_cap":null,"ath":6.345e-9,"atl":9.4771e-11,"ath_change_percentage":-61.82988,"ath_date":"2022-01-16T20:24:43Z","price":2.59e-9,"daily_high_price":2.5e-9,"daily_low_price":2.214e-9,"weekly_high_price":1.6024599377849e-9,"monthly_high_price":1.6024599377849e-9,"yearly_high_price":4.226476243296e-9,"weekly_low_price":1.4438234021668e-9,"monthly_low_price":1.1056697328988e-9,"yearly_low_price":9.1103464509222e-10,"percent_change_1h":null,"percent_change_24h":8.03244,"percent_change_7d":null,"percent_change_14d":null,"percent_change_30d":null,"percent_change_60d":null,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":1.80413e-10,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":4.2e+17,"total_supply":4.2e+17,"circulating_supply":1.4633099163914e+17,"type":"EXCHANGE","created_at":"2023-05-30T16:55:16Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"TON","name":"\u062a\u0648\u0646 \u06a9\u0648\u06cc\u0646","name_en":"Toncoin","rank":13,"dominance":0.5006,"volume_24h":223961100.95858,"market_cap":12708327905.689,"ath":5.29,"atl":0.519364,"ath_change_percentage":-22.05445,"ath_date":"2021-11-12T06:50:02Z","price":4.0707936207372,"daily_high_price":4.34,"daily_low_price":3.98,"weekly_high_price":2.5386599698723,"monthly_high_price":2.5386599698723,"yearly_high_price":2.6627899228629,"weekly_low_price":2.2034368584254,"monthly_low_price":1.9172381108373,"yearly_low_price":1.1773473710474,"percent_change_1h":-1.13103796,"percent_change_24h":3.55478,"percent_change_7d":33.0736726,"percent_change_14d":null,"percent_change_30d":65.82639915,"percent_change_60d":55.43571546,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.141862,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":null,"total_supply":5104492928.4158,"circulating_supply":3469163791.9089,"type":"OTC","created_at":"2023-09-04T10:00:54Z","updated_at":"2024-03-21T10:33:11Z"},{"key":"WLD","name":"\u0648\u0631\u0644\u062f\u06a9\u0648\u06cc\u0646","name_en":"WorldCoin","rank":76,"dominance":0.0536,"volume_24h":1114419756.3507,"market_cap":1364164682.1594,"ath":11.74,"atl":0.973104,"ath_change_percentage":-29.60853,"ath_date":"2024-03-10T00:10:42Z","price":8.060083820697,"daily_high_price":8.44,"daily_low_price":7.47,"weekly_high_price":null,"monthly_high_price":null,"yearly_high_price":null,"weekly_low_price":null,"monthly_low_price":null,"yearly_low_price":null,"percent_change_1h":-1.93361264,"percent_change_24h":6.16219,"percent_change_7d":22.62495738,"percent_change_14d":null,"percent_change_30d":208.07689928,"percent_change_60d":222.50376218,"percent_change_200d":null,"percent_change_1y":null,"price_change_24h":0.482247,"price_change_7d":null,"price_change_14d":null,"price_change_30d":null,"price_change_60d":null,"price_change_200d":null,"price_change_1y":null,"max_supply":10000000000,"total_supply":10000000000,"circulating_supply":154922972.90066,"type":"OTC","created_at":"2024-02-24T15:54:36Z","updated_at":"2024-03-21T10:33:11Z"}]
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\cryptobot\index.php(61): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 11:37:02  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is too long
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190325
+ref.message.message_id= 93
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711017414
+ref.message.text= کوین
+
+
+[ref]
+ref.text= [{"key":"BTC","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"Bitcoin","rank":1,"dominance":52.0049,"volume_24h":84533441272.997,"market_cap":1315629568528.4,"ath":73738,"atl":67.81,"ath_change_percentage":-9.37283,"ath_date":"2024-03-14T07:10:36Z","price":66977.25,"daily_high_price":68120,"daily_low_price":62081,"weekly_high_price":71420.031801423,"monthly_high_price":73097.767026941,"yearly_high_price":73097.767026941,"weekly_low_price":62132.517378734,"monthly_low_price":50841.081094771,"yearly_low_price":25107.754695881,"percent_change_1h":-1.19971586,"percent_change_24h":5.84932,"percent_change_7d":-0.72959387,"percent_change_14d":-2.24181,"percent_change_30d":30.29549401,"percent_change_60d":57.25526915,"percent_change_200d":-57.78799,"percent_change_1y":-38.93748,"price_change_24h":3699.31,"price_change_7d":-5990.7670269413,"price_change_14d":961.08072149154,"price_change_30d":15342.686814512,"price_change_60d":25480.892889963,"price_change_200d":41253.343157222,"price_change_1y":38842.760389478,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19660275,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:35:11Z"},{"key":"BCH","name":"\u0628\u06cc\u062a \u06a9\u0648\u06cc\u0646 \u06a9\u0634","name_en":"Bitcoin Cash","rank":17,"dominance":0.3068,"volume_24h":917938139.76383,"market_cap":7789353136.9891,"ath":3785.82,"atl":76.93,"ath_change_percentage":-88.63642,"ath_date":"2017-12-20T00:00:00Z","price":430.42,"daily_high_price":434.66,"daily_low_price":362.97,"weekly_high_price":449.09993610316,"monthly_high_price":501.74912360337,"yearly_high_price":501.74912360337,"weekly_low_price":388.01385098633,"monthly_low_price":260.2761161026,"yearly_low_price":101.7948506584,"percent_change_1h":-2.67855025,"percent_change_24h":17.65567,"percent_change_7d":-8.99335633,"percent_change_14d":-27.80979,"percent_change_30d":42.12712073,"percent_change_60d":55.57573948,"percent_change_200d":-39.97202,"percent_change_1y":-32.04174,"price_change_24h":64.69,"price_change_7d":-19.267459330361,"price_change_14d":-65.067426717867,"price_change_30d":129.26981473663,"price_change_60d":160.00828012806,"price_change_200d":188.31342210329,"price_change_1y":272.31435805759,"max_supply":21000000,"total_supply":21000000,"circulating_supply":19674612.396651,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:35:11Z"},{"key":"LTC","name":"\u0644\u0627\u06cc\u062a \u06a9\u0648\u06cc\u0646","name_en":"LiteCoin","rank":20,"dominance":0.2521,"volume_24h":1090208479.462,"market_cap":6386516955.833,"ath":410.26,"atl":1.15,"ath_change_percentage":-79.26305,"ath_date":"2021-05-10T03:13:07Z","price":84.98,"daily_high_price":86.13,"daily_low_price":78.24,"weekly_high_price":72.928474398306,"monthly_high_price":72.928474398306,"yearly_high_price":113.16618113821,"weekly_low_price":69.077065498218,"monthly_low_price":65.512005929358,"yearly_low_price":58.763608237383,"percent_change_1h":-1.86238459,"percent_change_24h":4.9367,"percent_change_7d":-1.79511831,"percent_change_14d":-10.37099,"percent_change_30d":22.54958262,"percent_change_60d":21.65784649,"percent_change_200d":-67.18393,"percent_change_1y":-61.97827,"price_change_24h":4.01,"price_change_7d":-0.6504800384364,"price_change_14d":2.0453451594788,"price_change_30d":0.65891343676475,"price_change_60d":-0.74553348002551,"price_change_200d":-22.269380686475,"price_change_1y":-29.210069774917,"max_supply":84000000,"total_supply":84000000,"circulating_supply":74333901.983471,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:35:11Z"},{"key":"DOGE","name":"\u062f\u0648\u062c \u06a9\u0648\u06cc\u0646","name_en":"Dogecoin","rank":9,"dominance":0.8848,"volume_24h":4961352079.6506,"market_cap":22384344918.401,"ath":0.731578,"atl":8.69e-5,"ath_change_percentage":-79.29046,"ath_date":"2021-05-08T05:08:23Z","price":0.15152,"daily_high_price":0.156543,"daily_low_price":0.127589,"weekly_high_price":0.092056361276831,"monthly_high_price":0.10179931271824,"yearly_high_price":0.10179931271824,"weekly_low_price":0.08193683499231,"monthly_low_price":0.08193683499231,"yearly_low_price":0.057836153442926,"percent_change_1h":-3.59752564,"percent_change_24h":13.36915,"percent_change_7d":-9.39585252,"percent_change_14d":-12.2273,"percent_change_30d":88.30680711,"percent_change_60d":91.62421337,"percent_change_200d":-62.7809,"percent_change_1y":-69.42681,"price_change_24h":0.01790707,"price_change_7d":-0.011151404686914,"price_change_14d":-0.0089775128862912,"price_change_30d":-0.0093229926472158,"price_change_60d":0.013317861174368,"price_change_200d":0.020125314746175,"price_change_1y":0.011844868484251,"max_supply":null,"total_supply":143556396383.7,"circulating_supply":143539316383.7,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:35:11Z"},{"key":"BNB","name":"\u0628\u0627\u06cc\u0646\u0646\u0633 \u06a9\u0648\u06cc\u0646","name_en":"Binance Coin","rank":4,"dominance":3.3494,"volume_24h":5266100709.0759,"market_cap":85030841664.252,"ath":686.31,"atl":0.0398177,"ath_change_percentage":-17.91012,"ath_date":"2021-05-10T07:24:17Z","price":569.5461,"daily_high_price":566.13,"daily_low_price":504.51,"weekly_high_price":234.23991448664,"monthly_high_price":253.6478135777,"yearly_high_price":347.86558930987,"weekly_low_price":227.19638072093,"monthly_low_price":227.19638072093,"yearly_low_price":204.99891579978,"percent_change_1h":-1.15491957,"percent_change_24h":7.21628,"percent_change_7d":20.72959817,"percent_change_14d":-0.7517,"percent_change_30d":70.79808377,"percent_change_60d":81.5173063,"percent_change_200d":-56.46717,"percent_change_1y":-26.7271,"price_change_24h":38.17,"price_change_7d":-3.9694730847035,"price_change_14d":-13.062704169517,"price_change_30d":3.2145836279563,"price_change_60d":11.816153406054,"price_change_200d":-82.122343846084,"price_change_1y":-71.926165716857,"max_supply":200000000,"total_supply":153856150,"circulating_supply":153856150,"type":"EXCHANGE","created_at":"2022-01-09T04:25:16Z","updated_at":"2024-03-21T10:35:11Z"}]
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\cryptobot\index.php(61): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 12:19:23  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190337
+ref.callback_query.id= 6787463461227037277
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 117
+ref.callback_query.message.from.id= 6754127647
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= قیمت لحظه ای ارز دیجیتال
+ref.callback_query.message.from.username= digitalcrypto_sabzlearnbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711019925
+ref.callback_query.message.edit_date= 1711019933
+ref.callback_query.message.text= نتایج جستجو🔍:
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= بیت کوین (BTC)
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /BTC
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= بیت کوین کش (BCH)
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /BCH
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= لایت کوین (LTC)
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.callback_data= /LTC
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.text= دوج کوین (DOGE)
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.callback_data= /DOGE
+ref.callback_query.message.reply_markup.inline_keyboard.4.0.text= بایننس کوین (BNB)
+ref.callback_query.message.reply_markup.inline_keyboard.4.0.callback_data= /BNB
+ref.callback_query.message.reply_markup.inline_keyboard.5.0.text= فایل کوین (FIL)
+ref.callback_query.message.reply_markup.inline_keyboard.5.0.callback_data= /FIL
+ref.callback_query.message.reply_markup.inline_keyboard.6.0.text= انجین کوین (ENJ)
+ref.callback_query.message.reply_markup.inline_keyboard.6.0.callback_data= /ENJ
+ref.callback_query.message.reply_markup.inline_keyboard.7.0.text= ایپ کوین (APE)
+ref.callback_query.message.reply_markup.inline_keyboard.7.0.callback_data= /APE
+ref.callback_query.chat_instance= 5550253751624034761
+ref.callback_query.data= /DOGE
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[]}
+ref.text= نتایج جستجو🔍:
+ref.message_id= 1
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(66): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-21 14:24:59  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 787190338
+ref.callback_query.id= 6787463461858136925
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 117
+ref.callback_query.message.from.id= 6754127647
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= قیمت لحظه ای ارز دیجیتال
+ref.callback_query.message.from.username= digitalcrypto_sabzlearnbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711019925
+ref.callback_query.message.edit_date= 1711019933
+ref.callback_query.message.text= نتایج جستجو🔍:
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= بیت کوین (BTC)
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /BTC
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= بیت کوین کش (BCH)
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /BCH
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.text= لایت کوین (LTC)
+ref.callback_query.message.reply_markup.inline_keyboard.2.0.callback_data= /LTC
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.text= دوج کوین (DOGE)
+ref.callback_query.message.reply_markup.inline_keyboard.3.0.callback_data= /DOGE
+ref.callback_query.message.reply_markup.inline_keyboard.4.0.text= بایننس کوین (BNB)
+ref.callback_query.message.reply_markup.inline_keyboard.4.0.callback_data= /BNB
+ref.callback_query.message.reply_markup.inline_keyboard.5.0.text= فایل کوین (FIL)
+ref.callback_query.message.reply_markup.inline_keyboard.5.0.callback_data= /FIL
+ref.callback_query.message.reply_markup.inline_keyboard.6.0.text= انجین کوین (ENJ)
+ref.callback_query.message.reply_markup.inline_keyboard.6.0.callback_data= /ENJ
+ref.callback_query.message.reply_markup.inline_keyboard.7.0.text= ایپ کوین (APE)
+ref.callback_query.message.reply_markup.inline_keyboard.7.0.callback_data= /APE
+ref.callback_query.chat_instance= 5550253751624034761
+ref.callback_query.data= /BTC
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[]}
+ref.text= نتایج جستجو🔍:
+ref.message_id= 1
+
+
+============[Trace]===========
+#0 D:\php\htdocs\cryptobot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\cryptobot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\cryptobot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\cryptobot\index.php(66): Telegram->editMessageText(Array)
+#4 {main}
+

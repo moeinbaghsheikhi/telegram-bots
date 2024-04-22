@@ -1,0 +1,153 @@
+============[Date]============
+[ 2024-02-06 16:32:03  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		28
+curl_error:		Failed to connect to api.telegram.org port 443 after 22240 ms: Timed out
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496762
+ref.callback_query.id= 6787463461178754358
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 149
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707224648
+ref.callback_query.message.text= حالا وقتشه موتور ترجمه مد نظرت رو انتخاب کنی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text=  گوگل(Google) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /google
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= مایکروسافت (Microsoft) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /microsoft
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= ترگمان 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /targoman
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= فرازین 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /faraazin
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /targoman
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u062a\u0631\u062c\u0645\u0647 \u0641\u0627\u0631\u0633\u06cc \u0628\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc","callback_data":"\/fa2en"},{"text":"\u062a\u0631\u062c\u0645\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc \u0628\u0647 \u0641\u0627\u0631\u0633\u06cc","callback_data":"\/en2fa"}]]}
+ref.text= حالت ترجمه رو انتخاب کن
+ref.message_id= 149
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(62): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-06 16:32:24  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		28
+curl_error:		Failed to connect to api.telegram.org port 443 after 21040 ms: Timed out
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496763
+ref.callback_query.id= 6787463460819391945
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 149
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707224648
+ref.callback_query.message.text= حالا وقتشه موتور ترجمه مد نظرت رو انتخاب کنی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text=  گوگل(Google) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /google
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= مایکروسافت (Microsoft) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /microsoft
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= ترگمان 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /targoman
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= فرازین 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /faraazin
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /targoman
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u062a\u0631\u062c\u0645\u0647 \u0641\u0627\u0631\u0633\u06cc \u0628\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc","callback_data":"\/fa2en"},{"text":"\u062a\u0631\u062c\u0645\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc \u0628\u0647 \u0641\u0627\u0631\u0633\u06cc","callback_data":"\/en2fa"}]]}
+ref.text= حالت ترجمه رو انتخاب کن
+ref.message_id= 149
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(62): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-06 16:33:55  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496767
+ref.callback_query.id= 6787463461556291807
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 149
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707224648
+ref.callback_query.message.text= حالا وقتشه موتور ترجمه مد نظرت رو انتخاب کنی!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text=  گوگل(Google) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /google
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= مایکروسافت (Microsoft) 🇺🇸
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /microsoft
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= ترگمان 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /targoman
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.text= فرازین 🇮🇷
+ref.callback_query.message.reply_markup.inline_keyboard.1.1.callback_data= /faraazin
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /targoman
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u062a\u0631\u062c\u0645\u0647 \u0641\u0627\u0631\u0633\u06cc \u0628\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc","callback_data":"\/fa2en"},{"text":"\u062a\u0631\u062c\u0645\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc \u0628\u0647 \u0641\u0627\u0631\u0633\u06cc","callback_data":"\/en2fa"}]]}
+ref.text= حالت ترجمه رو انتخاب کن
+ref.message_id= 149
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(62): Telegram->editMessageText(Array)
+#4 {main}
+

@@ -1,0 +1,191 @@
+============[Date]============
+[ 2024-02-05 14:29:00  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496647
+ref.callback_query.id= 6787463459422960053
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 37
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707139707
+ref.callback_query.message.edit_date= 1707139711
+ref.callback_query.message.text= حالت ترجمه رو انتخاب کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ترجمه فارسی به انگلیسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /fa2en
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= ترجمه انگلیسی به فارسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /en2fa
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /fa2en
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0633\u06cc\u0634\u0633\u06cc","callback_data":"\/fa2en"}]]}
+ref.text= حالا متن فارسیت رو ارسال کن تا به انگلیسی ترجمه کنم!
+ref.message_id= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(86): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-05 14:29:32  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496648
+ref.callback_query.id= 6787463459950492891
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 37
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707139707
+ref.callback_query.message.edit_date= 1707139711
+ref.callback_query.message.text= حالت ترجمه رو انتخاب کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ترجمه فارسی به انگلیسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /fa2en
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= ترجمه انگلیسی به فارسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /en2fa
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /fa2en
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0633\u06cc\u0634\u0633\u06cc","callback_data":"\/fa2en"}]]}
+ref.text= حالا متن فارسیت رو ارسال کن تا به انگلیسی ترجمه کنم!
+ref.message_id= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(86): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-05 14:51:41  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496666
+ref.callback_query.id= 6787463462959974403
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 43
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707141093
+ref.callback_query.message.edit_date= 1707141098
+ref.callback_query.message.text= حالت ترجمه رو انتخاب کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ترجمه فارسی به انگلیسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /fa2en
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= ترجمه انگلیسی به فارسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /en2fa
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /fa2en
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u062a\u0631\u062c\u0645\u0647 \u0641\u0627\u0631\u0633\u06cc \u0628\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc","callback_data":"\/fa2en"},{"text":"\u062a\u0631\u062c\u0645\u0647 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc \u0628\u0647 \u0641\u0627\u0631\u0633\u06cc","callback_data":"\/en2fa"}]]}
+ref.text= حالت ترجمه رو انتخاب کن
+ref.message_id= 43
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(71): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-02-05 14:59:31  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 352496679
+ref.callback_query.id= 6787463460945488395
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 49
+ref.callback_query.message.from.id= 6533298739
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات مترجم چند موتوره
+ref.callback_query.message.from.username= multitraslatesabzbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1707141548
+ref.callback_query.message.edit_date= 1707141555
+ref.callback_query.message.text= حالت ترجمه رو انتخاب کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ترجمه فارسی به انگلیسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /fa2en
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= ترجمه انگلیسی به فارسی
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /en2fa
+ref.callback_query.chat_instance= 4315766866029684227
+ref.callback_query.data= /fa2en
+
+
+[ref]
+ref.text= حالا متنی که میخوای از فارسی به انگلیسی ترجمه کنی رو بده:
+ref.message_id= 49
+
+
+============[Trace]===========
+#0 D:\php\htdocs\translate-bot\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\translate-bot\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\translate-bot\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\translate-bot\index.php(73): Telegram->editMessageText(Array)
+#4 {main}
+

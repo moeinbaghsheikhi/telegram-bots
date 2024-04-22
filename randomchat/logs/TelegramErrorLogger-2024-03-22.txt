@@ -1,0 +1,1374 @@
+============[Date]============
+[ 2024-03-22 13:37:16  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864800
+ref.callback_query.id= 6787463462757186765
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 8
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711111007
+ref.callback_query.message.text= سلام خوبی؟ به ربات چت ناشناس خوش اومدی
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= بزن بریم😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /home
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /home
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u062a\u0635\u0627\u062f\u0641\u06cc\ud83d\udd0d","callback_data":"\/random"}]]}
+ref.text= حالا وقتشه موتور ترجمه مد نظرت رو انتخاب کنی!
+ref.message_id= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 D:\php\htdocs\randomchat\index.php(38): Telegram->editMessageText(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 14:59:29  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864874
+ref.message.message_id= 113
+ref.message.from.id= 441740722
+ref.message.from.is_bot= false
+ref.message.from.first_name= moein
+ref.message.from.username= moeinbaghsheikhi
+ref.message.from.language_code= en
+ref.message.chat.id= 441740722
+ref.message.chat.first_name= moein
+ref.message.chat.username= moeinbaghsheikhi
+ref.message.chat.type= private
+ref.message.date= 1711115968
+ref.message.photo.0.file_id= AgACAgQAAxkBAANxZf2OwM90JFw7PItQQE_zLX91b4oAAjvDMRtW5-hTgtVdbsVt77YBAAMCAANzAAM0BA
+ref.message.photo.0.file_unique_id= AQADO8MxG1bn6FN4
+ref.message.photo.0.file_size= 1508
+ref.message.photo.0.width= 90
+ref.message.photo.0.height= 78
+ref.message.photo.1.file_id= AgACAgQAAxkBAANxZf2OwM90JFw7PItQQE_zLX91b4oAAjvDMRtW5-hTgtVdbsVt77YBAAMCAANtAAM0BA
+ref.message.photo.1.file_unique_id= AQADO8MxG1bn6FNy
+ref.message.photo.1.file_size= 19447
+ref.message.photo.1.width= 320
+ref.message.photo.1.height= 278
+ref.message.photo.2.file_id= AgACAgQAAxkBAANxZf2OwM90JFw7PItQQE_zLX91b4oAAjvDMRtW5-hTgtVdbsVt77YBAAMCAAN4AAM0BA
+ref.message.photo.2.file_unique_id= AQADO8MxG1bn6FN9
+ref.message.photo.2.file_size= 81044
+ref.message.photo.2.width= 800
+ref.message.photo.2.height= 696
+ref.message.photo.3.file_id= AgACAgQAAxkBAANxZf2OwM90JFw7PItQQE_zLX91b4oAAjvDMRtW5-hTgtVdbsVt77YBAAMCAAN5AAM0BA
+ref.message.photo.3.file_unique_id= AQADO8MxG1bn6FN-
+ref.message.photo.3.file_size= 121079
+ref.message.photo.3.width= 1080
+ref.message.photo.3.height= 940
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(121): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:02:00  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		403
+description:		Forbidden: bot was blocked by the user
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864877
+ref.my_chat_member.chat.id= 441740722
+ref.my_chat_member.chat.first_name= moein
+ref.my_chat_member.chat.username= moeinbaghsheikhi
+ref.my_chat_member.chat.type= private
+ref.my_chat_member.from.id= 441740722
+ref.my_chat_member.from.is_bot= false
+ref.my_chat_member.from.first_name= moein
+ref.my_chat_member.from.username= moeinbaghsheikhi
+ref.my_chat_member.from.language_code= en
+ref.my_chat_member.date= 1711116119
+ref.my_chat_member.old_chat_member.user.id= 6914279620
+ref.my_chat_member.old_chat_member.user.is_bot= true
+ref.my_chat_member.old_chat_member.user.first_name= ربات چت ناشناس
+ref.my_chat_member.old_chat_member.user.username= randomchat_sbzlernbot
+ref.my_chat_member.old_chat_member.status= member
+ref.my_chat_member.new_chat_member.user.id= 6914279620
+ref.my_chat_member.new_chat_member.user.is_bot= true
+ref.my_chat_member.new_chat_member.user.first_name= ربات چت ناشناس
+ref.my_chat_member.new_chat_member.user.username= randomchat_sbzlernbot
+ref.my_chat_member.new_chat_member.status= kicked
+ref.my_chat_member.new_chat_member.until_date= 0
+
+
+[ref]
+ref.text= دستور وارد شده صحیح نیست⛔
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(113): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:32:43  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864920
+ref.callback_query.id= 1897261955014710516
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 193
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711117957
+ref.callback_query.message.edit_date= 1711117960
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(96): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:32:45  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864920
+ref.callback_query.id= 1897261955014710516
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 193
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711117957
+ref.callback_query.message.edit_date= 1711117960
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(103): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:34:54  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864926
+ref.callback_query.id= 1897261955938171938
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 200
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118086
+ref.callback_query.message.edit_date= 1711118088
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(98): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:34:55  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864926
+ref.callback_query.id= 1897261955938171938
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 200
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118086
+ref.callback_query.message.edit_date= 1711118088
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(102): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:36:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864932
+ref.callback_query.id= 6787463461444292194
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 208
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118175
+ref.callback_query.message.edit_date= 1711118177
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(98): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:36:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864932
+ref.callback_query.id= 6787463461444292194
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 208
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118175
+ref.callback_query.message.edit_date= 1711118177
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(102): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:37:08  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864938
+ref.callback_query.id= 6787463459551223117
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 214
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118221
+ref.callback_query.message.edit_date= 1711118224
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(98): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:37:09  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864938
+ref.callback_query.id= 6787463459551223117
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 214
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711118221
+ref.callback_query.message.edit_date= 1711118224
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u062e\u0631\u0648\u062c\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(102): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:47:43  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864963
+ref.message.message_id= 267
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711118862
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"Button 1","request_contact":false,"request_location":false},{"text":"Button 2","request_contact":false,"request_location":false}]],"one_time_keyboard":true,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(106): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:51:26  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "keyboard" must be of type Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864974
+ref.message.message_id= 296
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711119085
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"keyboard":{"remove_keyboard":true},"one_time_keyboard":true,"resize_keyboard":false,"selective":true}
+ref.text= End...
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(114): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:52:48  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "selective" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864977
+ref.message.message_id= 304
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711119167
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"remove_keyboard":true,"selective":{"remove_keyboard":true}}
+ref.text= End...
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(114): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:53:47  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: object expected as reply markup
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864978
+ref.message.message_id= 306
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711119226
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup.remove_keyboard= true
+ref.text= End...
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(112): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:53:54  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: object expected as reply markup
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864980
+ref.message.message_id= 310
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711119233
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup.remove_keyboard= true
+ref.text= End...
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(112): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 15:54:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864981
+ref.message.message_id= 312
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711119292
+ref.message.text= /exit
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= End...
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(110): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:03:43  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864998
+ref.callback_query.id= 1897261957748875885
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 335
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711119816
+ref.callback_query.message.edit_date= 1711119818
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(96): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:03:44  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232864998
+ref.callback_query.id= 1897261957748875885
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 335
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711119816
+ref.callback_query.message.edit_date= 1711119818
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(99): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:05:16  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865010
+ref.callback_query.id= 1897261957846481889
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 349
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711119911
+ref.callback_query.message.edit_date= 1711119913
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(96): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:05:17  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865010
+ref.callback_query.id= 1897261957846481889
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 349
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711119911
+ref.callback_query.message.edit_date= 1711119913
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(105): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:07:07  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865022
+ref.callback_query.id= 6787463459657171231
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 360
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711120018
+ref.callback_query.message.edit_date= 1711120021
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"\/exit","request_location":false}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= This is a Keyboard Test
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(94): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:10:13  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865034
+ref.callback_query.id= 6787463460832410917
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 374
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711120202
+ref.callback_query.message.edit_date= 1711120209
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"","request_location":"\/exit"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(96): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:10:14  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865034
+ref.callback_query.id= 6787463460832410917
+ref.callback_query.from.id= 5875296782
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Moein
+ref.callback_query.from.username= codesefid
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 374
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 5875296782
+ref.callback_query.message.chat.first_name= Moein
+ref.callback_query.message.chat.username= codesefid
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711120202
+ref.callback_query.message.edit_date= 1711120209
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -3080798703421727748
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"","request_location":"\/exit"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(99): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:13:00  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865041
+ref.callback_query.id= 1897261955205886685
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 384
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711120375
+ref.callback_query.message.edit_date= 1711120378
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"","request_location":"\/exit"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(96): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:13:01  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865041
+ref.callback_query.id= 1897261955205886685
+ref.callback_query.from.id= 441740722
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= moein
+ref.callback_query.from.username= moeinbaghsheikhi
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 384
+ref.callback_query.message.from.id= 6914279620
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات چت ناشناس
+ref.callback_query.message.from.username= randomchat_sbzlernbot
+ref.callback_query.message.chat.id= 441740722
+ref.callback_query.message.chat.first_name= moein
+ref.callback_query.message.chat.username= moeinbaghsheikhi
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1711120375
+ref.callback_query.message.edit_date= 1711120378
+ref.callback_query.message.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت تصادفی🔍
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /random
+ref.callback_query.chat_instance= -1443271411073031851
+ref.callback_query.data= /random
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\u067e\u0627\u06cc\u0627\u0646 \u0686\u062a\u26d4","request_contact":"","request_location":"\/exit"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+ref.text= کاربر تصادفی با موفقیت پیدا شد. درحال چت هستید🧑‍🤝
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(99): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:26:51  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865078
+ref.message.message_id= 444
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711121210
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(141): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:28:05  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865080
+ref.message.message_id= 448
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711121284
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(129): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:29:24  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865081
+ref.message.message_id= 449
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711121363
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(129): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:30:49  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865083
+ref.message.message_id= 452
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711121448
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(129): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:31:01  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865084
+ref.message.message_id= 453
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711121460
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(129): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:35:42  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865107
+ref.message.message_id= 489
+ref.message.from.id= 441740722
+ref.message.from.is_bot= false
+ref.message.from.first_name= moein
+ref.message.from.username= moeinbaghsheikhi
+ref.message.from.language_code= en
+ref.message.chat.id= 441740722
+ref.message.chat.first_name= moein
+ref.message.chat.username= moeinbaghsheikhi
+ref.message.chat.type= private
+ref.message.date= 1711121740
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.chat_id= 
+ref.reply_markup= {"remove_keyboard":true}
+ref.text= چت شما به پایان رسید⚠️
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(144): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-22 16:35:44  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 232865107
+ref.message.message_id= 489
+ref.message.from.id= 441740722
+ref.message.from.is_bot= false
+ref.message.from.first_name= moein
+ref.message.from.username= moeinbaghsheikhi
+ref.message.from.language_code= en
+ref.message.chat.id= 441740722
+ref.message.chat.first_name= moein
+ref.message.chat.username= moeinbaghsheikhi
+ref.message.chat.type= private
+ref.message.date= 1711121740
+ref.message.text= پایان چت⛔
+
+
+[ref]
+ref.chat_id= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u062a\u0635\u0627\u062f\u0641\u06cc\ud83d\udd0d","callback_data":"\/random"}]]}
+ref.text= برای پیدا کردن کاربر تصادفی روی دکمه زیر کلیک کن!
+
+
+============[Trace]===========
+#0 D:\php\htdocs\randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\randomchat\Telegram.php(183): Telegram->endpoint('sendMessage', Array)
+#3 D:\php\htdocs\randomchat\index.php(159): Telegram->sendMessage(Array)
+#4 {main}
+

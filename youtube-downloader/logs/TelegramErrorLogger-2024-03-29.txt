@@ -1,0 +1,222 @@
+============[Date]============
+[ 2024-03-29 07:08:55  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no voice in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797258
+ref.message.message_id= 283
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711692533
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(140): Telegram->sendVoice(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-29 07:09:09  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no voice in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797259
+ref.message.message_id= 284
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711692548
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(140): Telegram->sendVoice(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-29 07:13:19  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no voice in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797263
+ref.message.message_id= 288
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711692798
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= 
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(140): Telegram->sendVoice(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-29 07:15:11  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: file must be non-empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797265
+ref.message.message_id= 291
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711692910
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= File
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(143): Telegram->sendVoice(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-29 07:15:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: file must be non-empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797266
+ref.message.message_id= 292
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711692919
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= File
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(143): Telegram->sendVoice(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-03-29 07:18:43  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: file must be non-empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 682797267
+ref.message.message_id= 293
+ref.message.from.id= 5875296782
+ref.message.from.is_bot= false
+ref.message.from.first_name= Moein
+ref.message.from.username= codesefid
+ref.message.from.language_code= en
+ref.message.chat.id= 5875296782
+ref.message.chat.first_name= Moein
+ref.message.chat.username= codesefid
+ref.message.chat.type= private
+ref.message.date= 1711693121
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.voice= File
+
+
+============[Trace]===========
+#0 D:\php\htdocs\youtube-downloader\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 D:\php\htdocs\youtube-downloader\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\php\htdocs\youtube-downloader\Telegram.php(291): Telegram->endpoint('sendVoice', Array)
+#3 D:\php\htdocs\youtube-downloader\index.php(147): Telegram->sendVoice(Array)
+#4 {main}
+
